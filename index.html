@@ -6,10 +6,28 @@
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="skeleton.css">
   <link rel="stylesheet" href="custom.css">
+  <style type="text/css">
+    .main-body {
+      animation: slide-in 2s;
+      transform: translateY(0%);
+    }
+
+    @keyframes slide-in {
+      0% {
+        transform: translateY(100vh);
+      }
+    }
+
+    @-ms-keyframes slide-in {
+      0% {
+        transform: translateY(100%);
+      }
+    }
+  </style>
 
 </head>
 
-<body>
+<body class="main-body">
 
 <br/>
 <br/>
