@@ -28,6 +28,19 @@
         transform: translateY(100%);
       }
     }
+
+    
+    .one-half.column {
+        width: 100%;
+    }
+
+    @media (min-width: 1080px) {
+      .one-half.column {
+        width: 48%;
+      }
+    }
+
+
   </style>
 
 </head>
@@ -53,23 +66,24 @@
     <div class="one-half column">
 
       <center>
-      <h3>Comments as a Service<h3>
-      <h5>
+      <h3>Comment Service</h3>
       <br/>
+      <span style="font-size: 1.25em;">
       Readers want to communicate with you.
       <br/>
-      Remarkbox lets them without friction.
+      Remarkbox lets them without friction. 
       <br/>
       <br/>
-      Works everywhere HTML is supported!
-      </h5>
+      Works everywhere, even static sites.
+      <br/>
+      </span>
       </center>
 
     </div>
     <div class="one-half column">
 
       <center>
-      <textarea  style="margin-top: 10px; width: 100%; height: 230px; font-size: .7em; color: #999999; border-color: #cccccc;">
+      <textarea  style="width: 100%; height: 230px; font-size: .7em; color: #999999; border-color: #cccccc;">
       <!-- Remarkbox - Let your readers communicate with you -->
       <script type="text/javascript" src="http://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script>
       <script type="text/javascript">
@@ -104,10 +118,10 @@
 
 <ul>
 <li>
-Readers don't register. Their email is verified to log them in.
+Readers don't register. They verify their email to log in.
 </li>
 <li>
-A preview of comment occurs as they type.
+Comment previews are shown as the user types.
 </li>
 <li>
 Remarkbox feels like part of the site.
@@ -246,8 +260,9 @@ May I migrate from Remarkbox to open source Remarkbox?
 <b>Do you have any real examples?</b>
 <ul style="margin-left: 20px;">
 <li><a href="http://russell.ballestrini.net/random.html" target="_blank">http://russell.ballestrini.net/random.html</a></li>
-<li><a href="http://gumyum.com/" target="_blank">http://gumyum.com</a></li>
 <li><a href="http://www.remarkbox.com/#remarkbox">http://www.remarkbox.com/#remarkbox</a></li>
+<li><a href="http://webscale.plumbing/managing-apt-repos-in-s3-using-lambda" target="_blank">http://webscale.plumbing</a></li>
+<li><a href="http://gumyum.com/" target="_blank">http://gumyum.com</a></li>
 </ul>
 </p>
 
@@ -270,19 +285,48 @@ May I migrate from Remarkbox to open source Remarkbox?
 
 <h5>Plans and Pricing</h5>
 
+<b>Beta signup</b> <i>mailchimp list, 2 messages a month</i>
+
+<br />
+<br />
+
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//ballestrini.us2.list-manage.com/subscribe/post?u=c64d1bc4e5a99ee1343dba0fc&amp;id=b4deeab70b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c64d1bc4e5a99ee1343dba0fc_b4deeab70b" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+<span style="font-size: .7em">
+We hope to provide enough value that customers would pay $5/mo for a multi tenant account.
+We also know some Enterprises desire dedicated resources, so we will likely release installable packages (rpm/deb/docker/ami)
+</span>
+
 <!--
 Embedded mode
 $5 per month per domain
 
   Works anywhere HTML is supported.
--->
 
 <b>Stand alone mode</b> <i>$99 per month</i>
 
 <p>
   We dedicate resources for your FAQ site.<br/>
   Bring your own domain, theme, and branding.
-  <!--Includes Embedded mode with unlimited domains.-->
 </p>
 
 <b>Enterprise</b> <i>$299 per month</i>
@@ -293,7 +337,6 @@ $5 per month per domain
   (We know how to scale in the cloud too) 
 </p>
 
-<!--
 Open source
 Free
 
@@ -302,6 +345,10 @@ Free
 
     </div>
   </div>
+
+<br />
+<br />
+<br />
 
   <!-- Remarkbox -->
   <script type="text/javascript" src="http://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script>
@@ -328,4 +375,16 @@ Free
 </div>
 
 </body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82107349-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </html>
