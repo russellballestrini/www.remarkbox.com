@@ -90,15 +90,14 @@
     <div class="one-half column">
 
       <center>
-      <textarea  style="width: 100%; height: 240px; font-size: .7em; color: #999999; border-color: #cccccc;">
-      <!-- Remarkbox - Let your readers communicate with you -->
-      <script type="text/javascript" src="http://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script>
-      <script type="text/javascript">
-        thread_uri = (window.location != window.parent.location) ? document.referrer: document.location;
-        document.write('<iframe id="remarkbox" src="http://demo.remarkbox.com/embed?thread_uri=' + thread_uri + '" title="remarkbox" width="100%" style="width: 100% !important; border: none !important; overflow: hidden !important;" allowtransparency="true" scrolling="no" horizontalscrolling="no" verticalscrolling="no" tabindex="0" seamless></iframe>');
-        iFrameResize( [], document.getElementById('remarkbox') );
-      </script></textarea>
-      <br />
+      <textarea  style="width: 100%; height: 260px; font-size: .7em; color: #999999; border-color: #cccccc;">
+        <!-- Remarkbox - readers want to communicate with you -->
+        <script type="text/javascript" src="https://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script><script type="text/javascript">
+          thread_uri = (window.location != window.parent.location) ? document.referrer: document.location;
+          document.write('<iframe id="remarkbox" src="http://demo.remarkbox.com/embed?thread_uri=' + thread_uri + '" title="remarkbox" width="100%" style="width: 100% !important; border: none !important; overflow: hidden !important;" allowtransparency="true" scrolling="no" horizontalscrolling="no" verticalscrolling="no" tabindex="0" seamless></iframe>');
+          iFrameResize( [], document.getElementById('remarkbox') );</script>
+        <noscript><iframe id="remarkbox" src="https://demo.remarkbox.com/embed?nojs=true" frameborder="0" style="height: 600px; width: 100%; border: none !important;" allowtransparency="true" height="600px" width="100%"></iframe></noscript>
+      </textarea>
       <br />
       <b>&#11014; Remarkbox works everywhere, even static sites!</b>
       </center>
@@ -360,12 +359,16 @@ Free
 <h5 id="remarkbox-demo" style="padding-top: 40px;">Remarkbox Demo <span style="font-size: .65em; margin-left: 10px;">try it out! </span></h5>
 
   <!-- Remarkbox -->
-  <script type="text/javascript" src="http://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script>
+  <script type="text/javascript" src="https://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script>
   <script type="text/javascript">
     thread_uri = (window.location != window.parent.location) ? document.referrer: document.location;
     document.write('<iframe id="remarkbox" src="http://demo.remarkbox.com/embed?thread_uri=' + thread_uri + '" title="remarkbox" width="100%" style="width: 100% !important; border: none !important; overflow: hidden !important;" allowtransparency="true" scrolling="no" horizontalscrolling="no" verticalscrolling="no" tabindex="0" seamless></iframe>');
     iFrameResize( [], document.getElementById('remarkbox') );
   </script>
+  <noscript>
+    <iframe id="remarkbox" src="https://demo.remarkbox.com/embed?nojs=true" frameborder="0" style="height: 600px; width: 100%; border: none !important;" allowtransparency="true" height="600px" width="100%"></iframe>
+  </noscript>
+  <!-- Remarkbox end -->
 
     </div>
   </div>
