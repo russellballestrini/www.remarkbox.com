@@ -90,16 +90,12 @@
     <div class="one-half column">
 
       <center>
-      <textarea  style="width: 100%; height: 260px; font-size: .7em; color: #999999; border-color: #cccccc;">
-        <!-- Remarkbox - readers want to communicate with you -->
-        <script type="text/javascript" src="https://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script><script type="text/javascript">
-          thread_uri = (window.location != window.parent.location) ? document.referrer: document.location;
-          document.write('<iframe id="remarkbox" src="https://demo.remarkbox.com/embed?thread_uri=' + thread_uri + '" title="remarkbox" width="100%" style="width: 100% !important; border: none !important; overflow: hidden !important;" allowtransparency="true" scrolling="no" horizontalscrolling="no" verticalscrolling="no" tabindex="0" seamless></iframe>');
-          iFrameResize( [], document.getElementById('remarkbox') );</script>
-        <noscript><iframe id="remarkbox" src="https://demo.remarkbox.com/embed?nojs=true" frameborder="0" style="height: 600px; width: 100%; border: none !important;" allowtransparency="true" height="600px" width="100%"></iframe></noscript>
-      </textarea>
+      <textarea style="width: 100%; height: 260px; font-size: .7em; color: #999999; border-color: #cccccc;"><!-- Remarkbox - readers want to communicate with you -->
+<script type="text/javascript" src="https://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script><script type="text/javascript">thread_fragment=window.location.hash; thread_uri=window.location.href; document.write('<iframe id="remarkbox" src="https://demo.remarkbox.com/embed?thread_uri=' + thread_uri + '" title="remarkbox" width="100%" style="width: 100% !important; border: none !important; overflow: hidden !important;" allowtransparency="true" scrolling="no" horizontalscrolling="no" verticalscrolling="no" tabindex="0" seamless></iframe>'); iFrameResize({inPageLinks: true, initCallback: function(iframe){iframe.iFrameResizer.moveToAnchor(thread_fragment);}}, document.getElementById("remarkbox") );</script><noscript><iframe id="remarkbox" src="https://demo.remarkbox.com/embed?nojs=true" frameborder="0" style="height: 600px; width: 100%; border: none !important;" allowtransparency="true" height="600px" width="100%"></iframe></noscript></textarea>
       <br />
       <b>&#11014; Remarkbox works everywhere, even static sites!</b>
+      <br />
+      non-minified version here: <a href="/iframe.txt">iframe.txt</a>
       </center>
 
     </div>
@@ -149,7 +145,7 @@
 
 <ul>
   <li><b>Comments on your site</b> - in 30s or less!</li>
-  <li><b>Try free until 10th comment</b> - $5/mo after that</li>
+  <li><b>Free until 5th comment</b> - $5/mo after that</li>
   <li><b>Cancel anytime</b> - export your comments as JSON</li>
 </ul>
 
@@ -359,17 +355,10 @@ Free
 
 <h5 id="remarkbox-demo" style="padding-top: 40px;">Remarkbox Demo <span style="font-size: .65em; margin-left: 10px;">try it out! </span></h5>
 
-  <!-- Remarkbox -->
-  <script type="text/javascript" src="https://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script>
-  <script type="text/javascript">
-    thread_uri = (window.location != window.parent.location) ? document.referrer: document.location;
-    document.write('<iframe id="remarkbox" src="https://demo.remarkbox.com/embed?thread_uri=' + thread_uri + '" title="remarkbox" width="100%" style="width: 100% !important; border: none !important; overflow: hidden !important;" allowtransparency="true" scrolling="no" horizontalscrolling="no" verticalscrolling="no" tabindex="0" seamless></iframe>');
-    iFrameResize( [], document.getElementById('remarkbox') );
-  </script>
-  <noscript>
-    <iframe id="remarkbox" src="https://demo.remarkbox.com/embed?nojs=true" frameborder="0" style="height: 600px; width: 100%; border: none !important;" allowtransparency="true" height="600px" width="100%"></iframe>
-  </noscript>
-  <!-- Remarkbox end -->
+<br />
+
+<!-- Remarkbox - readers want to communicate with you -->
+<script type="text/javascript" src="https://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script><script type="text/javascript">thread_fragment=window.location.hash; thread_uri=window.location.href; document.write('<iframe id="remarkbox" src="https://demo.remarkbox.com/embed?thread_uri=' + thread_uri + '" title="remarkbox" width="100%" style="width: 100% !important; border: none !important; overflow: hidden !important;" allowtransparency="true" scrolling="no" horizontalscrolling="no" verticalscrolling="no" tabindex="0" seamless></iframe>'); iFrameResize({inPageLinks: true, initCallback: function(iframe){iframe.iFrameResizer.moveToAnchor(thread_fragment);}}, document.getElementById("remarkbox") );</script><noscript><iframe id="remarkbox" src="https://demo.remarkbox.com/embed?nojs=true" frameborder="0" style="height: 600px; width: 100%; border: none !important;" allowtransparency="true" height="600px" width="100%"></iframe></noscript></textarea>
 
     </div>
   </div>
