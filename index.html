@@ -3,6 +3,8 @@
 
 <head>
 
+  <title>Comments as a service | Remarkbox</title>
+
   <!-- this makes mobile pretty...  -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -63,12 +65,16 @@
 
 <body>
 
-<center><a href="http://www.remarkbox.com"><img src="remarkbox-minified.png" class="banner" style="width: 45%; margin-top: 150px; margin-bottom: 150px; min-width: 300px;" /></a></center>
+<div class="nav">
+<a href="#faq">FAQ</a>
+<a href="#plans">Plans</a>
+<a href="#about">About</a>
+<a href="#remarkbox-demo">Demo</a>
+</div>
+
+<center><a href="http://www.remarkbox.com"><img src="remarkbox-minified.png" class="banner" style="width: 45%; margin-top: 130px; margin-bottom: 130px; min-width: 300px;" /></a></center>
 
 <div class="proposition">
-<br/>
-<br/>
-<br/>
 <div class="container">
   <div class="row">
     <div class="one-half column">
@@ -97,42 +103,37 @@
       <textarea style="width: 100%; height: 260px; font-size: .7em; color: #999999; border-color: #cccccc;"><!-- Remarkbox - readers want to communicate with you -->
 <script type="text/javascript" src="https://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script><script type="text/javascript">thread_fragment=window.location.hash; thread_uri=window.location.href; document.write('<iframe id="remarkbox" src="https://demo.remarkbox.com/embed?thread_uri=' + thread_uri + '" title="remarkbox" width="100%" style="width: 100% !important; border: none !important; overflow: hidden !important;" allowtransparency="true" scrolling="no" horizontalscrolling="no" verticalscrolling="no" tabindex="0" seamless></iframe>'); iFrameResize({inPageLinks: true, initCallback: function(iframe){iframe.iFrameResizer.moveToAnchor(thread_fragment);}}, document.getElementById("remarkbox") );</script><noscript><iframe id="remarkbox" src="https://demo.remarkbox.com/embed?nojs=true" frameborder="0" style="height: 600px; width: 100%; border: none !important;" allowtransparency="true" height="600px" width="100%"></iframe></noscript></textarea>
       <br />
-      <b>&#11014; Remarkbox works everywhere, even static sites!</b>
-      <br />
-      non-minified version here: <a href="/iframe.txt">iframe.txt</a>
+      <b>&#11014; Remarkbox works everywhere, <span class="avoidwrap">even static sites!</span></b>
       </center>
 
     </div>
   </div>
 </div>
-<br/>
-<br/>
-<br/>
 </div>
 
 <br/>
 <br/>
 <br/>
-<br/>
 
+<div class="reasons row-padding">
 <div class="container">
   <div class="row">
     <div class="one-half column">
+
 <center>
-<img src="/static/img/remarkbox-instant-preview-of-comments.gif" width="100%">
+<img src="/static/img/remarkbox-instant-preview-of-comments.gif" width="90%">
 </center>
+
 <br/>
-<br/>
-<br/>
-<br/>
+
     </div>
-    <div class="one-half column">
+    <div class="one-half column" style="padding-left: 5%;">
 
 <h5>Say <u>YES</u> to Privacy!</h5>
 
 <ul>
   <li><b>No user tracking</b> - anonymous by default</li>
-  <li><b>No advertisements</b> - promote your message only</li>
+  <li><b>No ads</b> - promote your message only</li>
 </ul>
 
 <br/>
@@ -154,21 +155,20 @@
 <ul>
   <li><b>Comments on your site</b> - in 30s or less!</li>
   <li><b>Free until 5th comment</b> - $5/mo after that</li>
-  <li><b>Cancel anytime</b> - export your comments as JSON</li>
+  <li><b>Cancel anytime</b> - export comments as JSON</li>
 </ul>
 
     </div>
   </div>
 
-<br/>
-<br/>
+  <br/>
+  <br/>
 
   <div class="row">
 
 <center>
-<h5>We love our customers & provide exclusive service by email or phone.</h5>
+<h5 style="margin-bottom: 0px">We love our customers & provide exclusive service by email or phone.</h5>
 </center>
-
 
   </div>
 
@@ -180,17 +180,14 @@
     https://www.youtube.com/watch?v=Pm8P4oCIY3g
 -->
 
+</div>
+</div>
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
+<div class="container row-padding">
   <div class="row">
     <div class="one-half column">
 
-<h5>FAQ</h5>
+<h5 id="faq">FAQ</h5>
 
 <p>
 
@@ -244,32 +241,10 @@ May I access my comments?</b>
 -->
 
 
-<br/>
-<br/>
-
-<h5>Remarkbox and Resilient Web Design</h5>
-
-<p>
-Remarkbox follows resilient web design principles.
-This means Remarkbox will work even when Javascript does not.
-</p>
-<p>
-When Javascript works, Remarkbox will powerup and enhance the user experience!
-</p>
-
-<p>
-For more details read: <a href="http://russell.ballestrini.net/capability-driven-presentation/" target="_blank">Capability driven Presentation</a>
-</p>
-
-<br/>
-<br/>
-<br/>
-
-
     </div>
     <div class="one-half column">
 
-<h5>Plans and Pricing</h5>
+<h5 id="plans">Plans and Pricing</h5>
 
 <b>Beta signup</b> <i>mailchimp list, 2 messages a month</i>
 
@@ -293,14 +268,37 @@ For more details read: <a href="http://russell.ballestrini.net/capability-driven
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
-</div>
-
 <!--End mc_embed_signup-->
 
 <span style="font-size: .7em">
 We hope to provide enough value that customers would pay $5/mo for a multi tenant account.
 We also know some Enterprises desire dedicated resources, so we will likely release installable packages (rpm/deb/docker/ami)
 </span>
+
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="graybg row-padding">
+<div class="container">
+  <div class="row">
+    <div class="one-half column">
+
+<h5>Resilient Web Design</h5>
+
+<p>
+Remarkbox follows resilient web design principles.
+This means Remarkbox will work even when Javascript does not.
+</p>
+<p>
+When Javascript works, Remarkbox will powerup and enhance the user experience!
+</p>
+
+<p>
+For more details read: <a href="http://russell.ballestrini.net/capability-driven-presentation/" target="_blank">Capability driven Presentation</a>
+</p>
+
 
 <!--
 Embedded mode
@@ -329,46 +327,43 @@ Free
   Link to github.com
 -->
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+    </div>
+    <div class="one-half column">
 
-
-<h5>About Remarkbox</h5>
+<h5 id="about">About Remarkbox</h5>
 
 <p>
-<img src="https://lh3.googleusercontent.com/-uAPZy7NmmP0/AAAAAAAAAAI/AAAAAAAAAnI/iG2P43gCL2U/s100-c/photo.jpg" align="left" style="margin-right: 30px;">
+<img src="https://lh3.googleusercontent.com/-uAPZy7NmmP0/AAAAAAAAAAI/AAAAAAAAAnI/iG2P43gCL2U/s120-c/photo.jpg" align="left" style="margin-right: 30px;">
 <b><a href="http://russell.ballestrini.net/about">Russell Ballestrini</a></b> - <i>Founder</i>
 
 <p>
   My vision of Remarkbox started back in 2013 while porting
-  my blog from Wordpress to Pelican, a static-site-generator.<br/>
+  my blog from Wordpress to Pelican, a static-site-generator.
+</p>
+<p>
   I had a problem: what would I do with my readers comments?
 </p>
 
 <p>
   My research found solutions which served ads and I didn't want that.
-  So I built my own solution because -<br/>"how long could it possibly take to build an embeddable comment system?" (hint: 3 years)
+  I set out to build my own solution because - <br/>"how long could it possibly take to build an embeddable comment system?" (hint: 3 years)
 </p>
 
-<p>
   Lots of love and thought have gone into making Remarkbox. I hope you and your readers enjoy using it!
-</p>
     </div>
   </div>
+</div>
+</div>
+</div>
 
-<br />
+<div class="container">
+  <div class="row row-padding">
 
-<h5 id="remarkbox-demo" style="padding-top: 40px;">Remarkbox Demo <span style="font-size: .65em; margin-left: 10px;">try it out! </span></h5>
-
-<br />
+<h5 id="remarkbox-demo">Remarkbox Demo <span style="font-size: .65em; margin-left: 10px;">try it out! </span></h5>
 
 <!-- Remarkbox - readers want to communicate with you -->
-<script type="text/javascript" src="https://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script><script type="text/javascript">thread_fragment=window.location.hash; thread_uri=window.location.href; document.write('<iframe id="remarkbox" src="https://demo.remarkbox.com/embed?thread_uri=' + thread_uri + '" title="remarkbox" width="100%" style="width: 100% !important; border: none !important; overflow: hidden !important;" allowtransparency="true" scrolling="no" horizontalscrolling="no" verticalscrolling="no" tabindex="0" seamless></iframe>'); iFrameResize({inPageLinks: true, initCallback: function(iframe){iframe.iFrameResizer.moveToAnchor(thread_fragment);}}, document.getElementById("remarkbox") );</script><noscript><iframe id="remarkbox" src="https://demo.remarkbox.com/embed?nojs=true" frameborder="0" style="height: 600px; width: 100%; border: none !important;" allowtransparency="true" height="600px" width="100%"></iframe></noscript></textarea>
+<script type="text/javascript" src="https://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script><script type="text/javascript">thread_fragment=window.location.hash; thread_uri=window.location.href; document.write('<iframe id="remarkbox" src="https://demo.remarkbox.com/embed?thread_uri=' + thread_uri + '" title="remarkbox" width="100%" style="width: 100% !important; border: none !important; overflow: hidden !important;" allowtransparency="true" scrolling="no" horizontalscrolling="no" verticalscrolling="no" tabindex="0" seamless></iframe>'); iFrameResize({inPageLinks: true, initCallback: function(iframe){iframe.iFrameResizer.moveToAnchor(thread_fragment);}}, document.getElementById("remarkbox") );</script><noscript><iframe id="remarkbox" src="https://demo.remarkbox.com/embed?nojs=true" frameborder="0" style="height: 600px; width: 100%; border: none !important;" allowtransparency="true" height="600px" width="100%"></iframe></noscript>
 
-    </div>
   </div>
 </div>
 
@@ -376,7 +371,7 @@ Free
 <br/>
 <br/>
 
-<div style="background-color: #e3ddda; padding: 100px;">
+<div class="graybg row-padding">
 <center>
 <b>
 &#169;2016-2017 | USA, Connecticut, New London | <a href="https://twitter.com/RussellBal" target="_blank">@russellbal</a>

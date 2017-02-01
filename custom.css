@@ -1,3 +1,26 @@
-.proposition {
-    background-color: #eeeeee;
+.reasons {
+    background-color: #f9f9f9;
+}
+.nav {
+    background-color: #f9f9f9;
+    text-align: center;
+    word-spacing: 50px;
+    padding: 8px;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.graybg {
+    background-color: #f9f9f9;
+}
+
+.row-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+span.avoidwrap { 
+  display:inline-block;
 }
