@@ -1,19 +1,26 @@
-.reasons {
-    background-color: #f1f1f1;
+a, a:link, a:visited {
+    text-decoration: none;
 }
+
+.reasons {
+    background-color: #f8f5f5;
+}
+
+.graybg {
+    background-color: #f8f5f5;
+}
+
 .nav {
-    background-color: #f1f1f1;
+    /*background-color: #f1f1f1;*/
     text-align: center;
     word-spacing: 50px;
     padding: 8px;
+    margin-bottom: 60px;
+    font-weight: bold;
 }
 
 .nav a {
     text-decoration: none;
-}
-
-.graybg {
-    background-color: #f1f1f1;
 }
 
 .row-padding {
@@ -24,3 +31,4 @@
 span.avoidwrap { 
   display:inline-block;
 }
+
