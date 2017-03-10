@@ -32,3 +32,6 @@ span.avoidwrap {
   display:inline-block;
 }
 
+.container {
+    max-width: 860px;
+}
