@@ -35,3 +35,8 @@ span.avoidwrap {
 .container {
     max-width: 860px;
 }
+
+@media screen and (max-width:568px) {
+  .hidden-on-phone {display:none} 
+}  
+
