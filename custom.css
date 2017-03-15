@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+}
+
 a, a:link, a:visited {
     text-decoration: none;
 }
@@ -24,7 +28,7 @@ a, a:link, a:visited {
 }
 
 .row-padding {
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 80px;
 }
 
