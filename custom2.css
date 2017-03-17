@@ -14,21 +14,43 @@ a, a:link, a:visited {
     color: #888888;
 }
 
-.reasons {
+body {
     background-color: #f8f5f5;
+}
+
+#mc_embed_signup {
+    clear:left; font:14px Helvetica,Arial,sans-serif;
+}
+#mc_embed_signup .button {
+    background-color: #AA0000;
+}
+#mc_embed_signup .button:hover {
+    background-color: #D40000;
 }
 
 .graybg {
-    background-color: #f8f5f5;
+    /*background-color: #f8f5f5;*/
+    background-color: #ffffff;
+}
+
+.reasons {
+    /*background-color: #f8f5f5;*/
+    background-color: #ffffff;
+}
+
+
+.nav, .navbar {
+    word-spacing: 30px;
+    font-weight: bold;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: solid 4px #AA0000;
 }
 
 .nav {
-    word-spacing: 30px;
-    font-weight: bold;
-    border-top: solid 4px #AA0000;
-    padding-bottom: 12px;
     padding-top: 15px;
-    width: 100%;
+    padding-bottom: 10px;
+    /*border-bottom: 1px solid #eee;*/
 }
 
 .navbar {
@@ -37,13 +59,6 @@ a, a:link, a:visited {
     top: 0;
     left: 0;
 
-    font-weight: bold;
-    word-spacing: 30px;
-    border-top: solid 4px #AA0000;
-
-    width: 100%;
-
-    background: #fff;
     z-index: 99;
 }
 
@@ -81,8 +96,8 @@ a, a:link, a:visited {
 }
 
 .row-padding {
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 span.avoidwrap { 
