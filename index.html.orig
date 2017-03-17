@@ -12,69 +12,93 @@
 
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="skeleton.css">
-  <link rel="stylesheet" href="custom2.css">
+  <link rel="stylesheet" href="custom.css">
+  <style type="text/css">
+    .banner {
+      animation: slide-in .5s;
+      transform: translateY(0%);
+    }
 
-  <script src="jquery-3.2.0.slim.min.js"></script>
-  <script src="custom.js"></script>
+    .proposition {
+      animation: slide-in 2.5s;
+      transform: translateY(0%);
+    }
 
+    @keyframes slide-in {
+      0% {
+        transform: translateY(100vh);
+      }
+    }
+
+    @-ms-keyframes slide-in {
+      0% {
+        transform: translateY(100%);
+      }
+    }
+
+    
+    .one-half.column {
+        width: 100%;
+    }
+
+    @media (min-width: 1080px) {
+      .one-half.column {
+        width: 48%;
+      }
+    }
+
+
+  </style>
 
 <!-- reviewing the data - https://getmirrorshades.com/view.html?siteKey=NwkBplCe -->
 <script async src="https://getmirrorshades.com/agent.js" data-siteId="MA-EWUFWH-64A"></script>
 
 </head>
 
-<body class="remarkbox-body">
+<body>
 
 <a name="top"></a>
 
-<div class="redline"></div>
-
-<div class="navbar">
-  <div class="hidden-on-tablet">
-    <a href="http://www.remarkbox.com"><img src="remarkbox-minified.png" class="navlogo" /></a>
-    
-    <div class="navlinks">
-      <a href="#beta">Beta</a>
-      <a href="#faq">FAQ</a>
-      <a href="#about">About</a>
-      <a href="#plans">Plans</a>
-    </div>
-  </div>
-</div>
+<center><a href="http://www.remarkbox.com"><img src="remarkbox-minified.png" class="banner" style="width: 45%; margin-top: 100px; margin-bottom: 60px; min-width: 300px; max-width: 600px;" /></a></center>
 
 <div class="proposition">
 <div class="container">
 
 <a name="free"></a>
 
-<center><a href="http://www.remarkbox.com">
-    <img src="remarkbox-minified.png" class="herologo" /></a>
-    <h3>Your readers want to communicate with you</h3>
-</center>
+<div class="nav hidden-on-phone">
+<a href="#faq">FAQ</a>
+<a href="#plans">Plans</a>
+<a href="#beta">Beta</a>
+<a href="#about">About</a>
+<a href="#remarkbox-demo">Demo</a>
+</div>
+
+
+      <br />
+      <br />
+
 
   <div class="row">
     <div class="one-half column">
 
       <center>
+      <h3>Your readers want to <br />communicate with you</h3>
       <span style="font-size: 1.25em;">
       <br />
+      Reward them with Remarkbox 
       <br />
       <br />
-      Remarkbox offers a <span class="avoidwrap"><b>free comment system</b></span>
+      
+      The <b>free comment system</b>
       <br />
-      to keep readers engaged <span class="avoidwrap">with your content.</span>
+      that engaged readers prefer to use
       <br />
-      <br />
-      It works everywhere, <span class="avoidwrap">even <b>static sites</b>!</span>
       </span>
       <br />
       <br />
       <br />
-      <br />
-      <button style="color: #FFFFFF; background-color: #AA0000; border-color: #AA0000;">Get Started</button>
-      <br />
-      <br />
-      Setup on your page in 30s or <a href="#learn">learn more</a>
+      <b>Try <a href="#remarkbox-demo">here</a> or setup on your site in 30s</b>
       <br />
       <br />
       </center>
@@ -83,7 +107,7 @@
     <div class="one-half column">
       <center>
       <br />
-      <br />
+      <b>Works everywhere, <span class="avoidwrap">even static sites!</span></b>
       <br />
       <br />
       <textarea style="width: 96%; height: 270px; font-size: .7em; color: #999999; border-color: #cccccc;" disabled><!-- Remarkbox - readers want to communicate with you -->
@@ -100,24 +124,6 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<span id="learn">
-<div class="nav">
-  <div>
-    <a href="http://www.remarkbox.com"><img src="remarkbox-minified.png" class="navlogo" /></a>
-    
-    <div class="navlinks">
-      <a href="#beta">Beta</a>
-      <a href="#faq">FAQ</a>
-      <a href="#about">About</a>
-      <a href="#plans">Plans</a>
-    </div>
-  </div>
-</div>
 
 <div class="reasons row-padding">
 <center>
@@ -126,6 +132,7 @@
 </center>
 <div class="container">
   <div class="row">
+
 
     <div class="one-half column">
 
@@ -185,19 +192,16 @@
 <p>
     https://www.youtube.com/watch?v=Pm8P4oCIY3g
 -->
-<span id="plans">
-<span id="faq">
 
 </div>
 </div>
-
 
 <div class="container row-padding">
   <div class="row">
 
     <div class="one-half column" style="padding-left: 5%;">
 
-<h5>Plans and Pricing</h5>
+<h5 id="plans">Plans and Pricing</h5>
 
 <b><a href="#free">Free</a></b>
 <br />
@@ -215,7 +219,6 @@ Moderator access for one verified domain
 
 <b>$14/mo</b> (beta)
 <br />
-<span id="beta">
 Moderator access for unlimited verified domains
 
 <br />
@@ -225,13 +228,12 @@ Moderator access for unlimited verified domains
 There will likely be an Enterprise plan with dedicated resources.
 </span>
 
-
 <br />
 <br />
 <br />
 
 
-<h5>Remarkbox Beta</h5>
+<h5 id="beta">Remarkbox Beta</h5>
 
 For <b>beta access</b> and updates, join the email list
 
@@ -270,7 +272,7 @@ Your <b>feedback will shape</b> Remarkbox!
 
     <div class="one-half column" style="padding-left: 5%;">
 
-    <h5>FAQ</h5>
+    <h5 id="faq">FAQ</h5>
     
     <p>
     
@@ -311,8 +313,6 @@ Your <b>feedback will shape</b> Remarkbox!
 
     </div>
 
-<span id="about">
-
   </div>
 </div>
 
@@ -322,7 +322,7 @@ Your <b>feedback will shape</b> Remarkbox!
 
     <div class="six columns" style="padding-left: 5%">
 
-      <h5>About Remarkbox</h5>
+      <h5 id="about">About Remarkbox</h5>
       
       <p>
       <img src="https://lh3.googleusercontent.com/-uAPZy7NmmP0/AAAAAAAAAAI/AAAAAAAAAnI/iG2P43gCL2U/s140-c/photo.jpg" align="left" style="margin-right: 20px; margin-top: 5px;">
