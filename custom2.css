@@ -1,0 +1,103 @@
+h1, h2, h3, h4, h5, h6 {
+    padding-top: 20px;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #888888;
+} 
+
+.nav a {
+    color: #888888;
+}
+
+.reasons {
+    background-color: #f8f5f5;
+}
+
+.graybg {
+    background-color: #f8f5f5;
+}
+
+.nav {
+    word-spacing: 30px;
+    font-weight: bold;
+    border-top: solid 4px #AA0000;
+    padding-bottom: 12px;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.navbar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    font-weight: bold;
+    word-spacing: 30px;
+    border-top: solid 4px #AA0000;
+
+    width: 100%;
+
+    background: #fff;
+    z-index: 99;
+}
+
+.redline {
+    border-top: solid 4px #AA0000;
+}
+
+.has-docked-nav .navbar {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.navlinks {
+    float: right;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.navlogo {
+    width: 280px;
+    /*vertical-align: middle;*/
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.herologo {
+   width: 100%;
+   max-width: 600px;
+   min-width: 300px;
+   padding-top: 100px;
+   padding-bottom: 60px;
+}
+
+.row-padding {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+span.avoidwrap { 
+  display:inline-block;
+}
+
+.container {
+    max-width: 860px;
+}
+
+@media screen and (max-width:568px) {
+  .hidden-on-phone {display: none} 
+}  
+
+@media screen and (max-width:750px) {
+  .navbar.hidden-on-tablet {display: none} 
+  .hidden-on-tablet {display: none} 
+}  
