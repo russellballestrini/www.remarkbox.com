@@ -21,11 +21,27 @@ body {
 #mc_embed_signup {
     clear:left; font:14px Helvetica,Arial,sans-serif;
 }
-#mc_embed_signup .button {
+#mc_embed_signup .button, .red {
     background-color: #AA0000;
+    border-color: #AA0000;
+    color: #FFFFFF;
 }
-#mc_embed_signup .button:hover {
+#mc_embed_signup .button:hover, .red:hover {
     background-color: #D40000;
+    border-color: #DA0000;
+    color: #FFFFFF;
+}
+
+.pricebox {
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.deal {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .graybg {

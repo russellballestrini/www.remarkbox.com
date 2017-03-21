@@ -19,8 +19,17 @@
   <script src="custom.js"></script>
 
 
-<!-- reviewing the data - https://getmirrorshades.com/view.html?siteKey=NwkBplCe -->
-<script async src="https://getmirrorshades.com/agent.js" data-siteId="MA-EWUFWH-64A"></script>
+  <!-- reviewing the data - https://getmirrorshades.com/view.html?siteKey=NwkBplCe -->
+  <script async src="https://getmirrorshades.com/agent.js" data-siteId="MA-EWUFWH-64A"></script>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-82107349-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 
 </head>
 
@@ -30,27 +39,24 @@
 
 <div class="redline"></div>
 
-<div class="navbar">
-  <div class="hidden-on-tablet">
+<div class="navbar hidden-on-tablet">
     <a href="http://www.remarkbox.com"><img src="remarkbox-minified.png" class="navlogo" /></a>
     
     <div class="navlinks">
-      <a href="#beta">Beta</a>
-      <a href="#faq">FAQ</a>
-      <a href="#about">About</a>
       <a href="#plans">Plans</a>
+      <a href="#faq">FAQ</a>
+      <a href="#beta">Beta</a>
+      <a href="#about">About</a>
+      <a href="#remarkbox-demo">Demo</a>
     </div>
-  </div>
 </div>
 
 <div class="proposition">
 <div class="container">
 
-<a name="free"></a>
-
 <center><a href="http://www.remarkbox.com">
     <img src="remarkbox-minified.png" class="herologo" /></a>
-    <h3>Your readers want to communicate with you</h3>
+    <h2>Your readers want <span class="avoidwrap">to communicate with you</span></h2>
 </center>
 
   <div class="row">
@@ -58,26 +64,31 @@
 
       <center>
       <span style="font-size: 1.25em;">
-      <br />
-      <br />
-      <br />
-      Remarkbox offers a <span class="avoidwrap"><b>free comment system</b></span>
-      <br />
-      to keep readers engaged <span class="avoidwrap">with your content.</span>
-      <br />
-      <br />
-      It works everywhere, <span class="avoidwrap">even <b>static sites</b>!</span>
+<a name="free"></a>
+
+        <br />
+        <br />
+        <br />
+        Remarkbox offers a <span class="avoidwrap"><b>free comment system</b></span>
+        <br />
+        to keep readers engaged <span class="avoidwrap">with your content.</span>
+        <br />
+        <br />
+        It works everywhere, <span class="avoidwrap">even <b>static sites</b>!</span>
+        <br />
+        <br />
+        Simply copy and paste into your HTML.
+        <br />
+        We handle the rest!
       </span>
-      <br />
       <br />
       <br />
       <br />
       <!--<button style="color: #FFFFFF; background-color: #AA0000; border-color: #AA0000;">Get Started</button>
       -->
-      <a class="button" style="color: #FFFFFF; background-color: #AA0000; border-color: #AA0000;" href="#remarkbox-demo">Try Here</a>
+      <a class="button red" href="#remarkbox-demo">Try Remarkbox</a>
       <br />
-      <br />
-      Setup on your page in 30s or <a href="#learn">learn more</a>
+      <b>or <a href="#learn">learn more</a></b>
       <br />
       <br />
       </center>
@@ -92,16 +103,26 @@
       <textarea style="width: 96%; height: 270px; font-size: .7em; color: #999999; border-color: #cccccc;" disabled><!-- Remarkbox - readers want to communicate with you -->
 <script type="text/javascript" src="https://demo.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script><script type="text/javascript">thread_fragment=window.location.hash; thread_uri=window.location.href; document.write('<iframe id="remarkbox" src="https://demo.remarkbox.com/embed?thread_uri=' + thread_uri + '" title="remarkbox" width="100%" style="width: 100% !important; border: none !important; overflow: hidden !important;" allowtransparency="true" scrolling="no" horizontalscrolling="no" verticalscrolling="no" tabindex="0" seamless></iframe>'); iFrameResize({inPageLinks: true, initCallback: function(iframe){iframe.iFrameResizer.moveToAnchor(thread_fragment);}}, document.getElementById("remarkbox") );</script><noscript><iframe id="remarkbox" src="https://demo.remarkbox.com/embed?nojs=true" frameborder="0" style="height: 600px; width: 100%; border: none !important;" allowtransparency="true" height="600px" width="100%"></iframe></noscript></textarea>
       <br />
-      <b>&#11014; Put me on your web page</b>
+      <b>&#11014; Setup on your web page in 30s or less</b>
       </center>
 
     </div>
+
+
+  </div>
+  <div class="row">
+    <center>
+      <h3 style="margin-top: 80px">Looking for a Disqus alternative?</h3>
+    </center>
+      We all agree that Disqus has jumped the shark. Their user experience is distracting and they serve advertisements.
+      <br/>
+      Not only that, but they actively cause your visitors to bounce to their dashboard.
+      As a result, Remarkbox was created to satisfy the need for a comment system that <b>works for the site owner</b>, not against them.
+      <a href="#about">... read more<a/>
   </div>
 </div>
 </div>
 
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
@@ -114,17 +135,18 @@
     <a href="http://www.remarkbox.com"><img src="remarkbox-minified.png" class="navlogo" /></a>
     
     <div class="navlinks">
-      <a href="#beta">Beta</a>
-      <a href="#faq">FAQ</a>
-      <a href="#about">About</a>
       <a href="#plans">Plans</a>
+      <a href="#faq">FAQ</a>
+      <a href="#beta">Beta</a>
+      <a href="#about">About</a>
+      <a href="#remarkbox-demo">Demo</a>
     </div>
   </div>
 </div>
 
 <div class="reasons row-padding">
 <center>
-<h4>Finally, a blog comment system with ethics</h4>
+<h4>Your search for the perfect blog comment system ends today</h4>
 <br/>
 </center>
 <div class="container">
@@ -133,7 +155,7 @@
     <div class="one-half column">
 
 <center>
-<img src="/static/img/remarkbox-instant-preview-of-comments.gif" width="94%" style="margin-top: 20px;">
+<img src="/static/img/remarkbox-instant-preview-of-comments.gif" width="98%" style="margin-top: 20px;">
 <span style="font-size: .7em">Markdown and syntax highlighted code blocks!</span>
 </center>
 
@@ -142,44 +164,36 @@
     </div>
     <div class="one-half column" style="padding-left: 5%;">
 
-<h5>Say <u>YES</u> to Privacy!</h5>
-
-<ul style="margin-bottom: 40px;">
-  <li><b>No user tracking</b> - anonymous by default</li>
-  <li><b>No ads</b> - promote your message only</li>
-</ul>
-
 
 <h5>Dissolve barriers of engagement</h5>
 
+Everyone knows asking a visitor to create an account often leads to less engagement.
+With Remarkbox, a visitor may interact with your site <b>without</b> an account.
+<br>
+<br>
+When a user leaves a comment we collect their email address and send a verification email to log them in.
+<br>
+<br>
+The end result is a visitor can comment right away without needing to signup or remember a password.
+
+<br>
+<br>
+<br>
+
+<h5>Say <u>No</u> to Ads!</h5>
+
 <ul style="margin-bottom: 40px;">
-  <li><b>No registration</b> - optional email verification</li>
-  <li><b>Realtime previews</b> - as the user types</li>
-  <li><b>Looks and feels</b> - like part of your site</li>
+Other comment systems, like Facebook and Disqus, track your (and your visitor's) activity to serve ads.
+<br>
+<br>
+Here at Remarkbox we respect your privacy and never serve ads. In fact, we only <b>promote your message</b> because we work for you, not them!
 </ul>
 
-
-<h5>Free comments</h5>
-<ul style="margin-bottom: 40px;">
-  <li><b>Setup</b> - in 30s or less!</li>
-  <li><b>Cancel anytime</b> - export comments as JSON</li>
-  <li><b>No Cost or limits</b> - <a href="#plans">free plan</a></li>
-</ul>
 
     </div>
   </div>
 
 
-  <div class="row">
-
-<center>
-<h5 style="margin-bottom: 0px">Don't give your readers Disqust</h5>
-
-<h6>Switch to Remarkbox, the Disqus alternative</h6>
-
-</center>
-
-  </div>
 
 <!--
 <p>
@@ -195,48 +209,101 @@
 </div>
 
 
-<div class="container row-padding">
+<div class="container row-padding" style="max-width: 960px">
+
+<center><h5>Plans and Pricing</h5></center>
+        <br/>
+
   <div class="row">
+
+
+    <div class="one-third column">
+      <br/>
+      <div class="pricebox">
+        <b>None</b>
+        <h3>Free</h3>
+        No moderator
+        <br/>
+        <br/>
+        <br/>
+        <b><a href="#free" class="button red">Free</a></b>
+        <br/>
+        Just put the snippet into your HTML
+      </div>
+    </div>
+
+    <div class="one-third column">
+      <div class="redline"></div>
+      <div class="pricebox deal">
+        <b>One</b>
+        <h3>$6/mo</h3>
+          One moderator on<br/>
+          <span class="avoidwrap">one verified domain</span>
+          <br/>
+          <br/>
+        <b><a href="#beta" class="button red">Coming Soon</a></b>
+        <br/>
+        Join the <a href="#beta">beta</a> for a sneak peek
+      </div>
+      <div class="redline"></div>
+    </div>
+
+    <div class="one-third column">
+      <br/>
+      <div class="pricebox">
+        <b>Many</b>
+        <h3>$16/mo</h3>
+          One moderator on<br/>
+          <span class="avoidwrap">unlimited verified domains</span>
+          <br/>
+          <br/>
+        <b><a href="#beta" class="button red">Coming Soon</a></b>
+        <br/>
+        Join the <a href="#beta">beta</a> for a sneak peek
+      </div>
+    </div>
+
+  </div>
+
+<br><br><br><br>
+
+  <div class="row">
+
+    <h5>FAQ</h5>
+
 
     <div class="one-half column" style="padding-left: 5%;">
 
-<h5>Plans and Pricing</h5>
+    
+    
+    <p style="margin-bottom: 10px;">
+    <b>Do you have any real examples?</b>
+    <ul style="margin-left: 20px;">
+    <li><a href="http://russell.ballestrini.net/random.html" target="_blank">http://russell.ballestrini.net/random.html</a></li>
+    <li><a href="https://linkpeek.com/blog" target="_blank">https://linkpeek.com/blog</a></li>
+    <li><a href="http://westworld2.com/">http://westworld2.com</a></li>
+    <li><a href="http://webscale.plumbing/managing-apt-repos-in-s3-using-lambda" target="_blank">http://webscale.plumbing</a></li>
+    <li><a href="http://gumyum.com/" target="_blank">http://gumyum.com</a></li>
+    <li><a href="http://www.remarkbox.com/#remarkbox">http://www.remarkbox.com/#remarkbox</a></li>
+    </ul>
+    </p>
 
-<b><a href="#free">Free</a></b>
-<br />
-Simply put the snippet into your HTML
+    </div>
 
-<br/>
-<br/>
-
-<b>$5/mo</b> (beta)
-<br />
-Moderator access for one verified domain
-
-<br/>
-<br/>
-
-<b>$14/mo</b> (beta)
-<br />
 <span id="beta">
-Moderator access for unlimited verified domains
 
-<br />
-<br />
+  </div>
+</div>
 
-<span style="font-size: .7em">
-There will likely be an Enterprise plan with dedicated resources.
-</span>
+<div class="graybg row-padding">
+<div class="container">
+  <div class="row">
+    <div class="three columns">&nbsp;</div>
 
-
-<br />
-<br />
-<br />
-
-
+    <div class="six columns">
 <h5>Remarkbox Beta</h5>
 
-For <b>beta access</b> and updates, join the email list
+For <b>beta access</b> to advanced features and updates <span class="avoidwrap"> join the email list.</span>
 
 <br />
 <br />
@@ -256,62 +323,16 @@ For <b>beta access</b> and updates, join the email list
 </div>
 <!--End mc_embed_signup-->
 
+<span id="about">
 Your <b>feedback will shape</b> Remarkbox!
-
-<br />
-<br />
-
-  </div>
-
-    <div class="one-half column" style="padding-left: 5%;">
-
-    <h5>FAQ</h5>
-    
-    <p>
-    
-    
-    <!--
-    <p>
-    May I migrate from Wordpress to Remarkbox?
-      Yes, Describe how to use our ETL tool.
-    </p>
-    
-    <p>
-    May I migrate from Disqus to Remarkbox?
-      Yes, Describe how to use our ETL tool.
-    </p>
-     
-    <p>
-    May I migrate from open source Remarkbox to hosted Remarkbox?
-      Yes, Describe how to use our ETL tool.
-    </p>
-    
-    <p>
-    May I migrate from Remarkbox to open source Remarkbox?
-      Yes, Describe how to use our ETL tool.
-    </p>
-    -->
-    
-    <p style="margin-bottom: 10px;">
-    <b>Do you have any real examples?</b>
-    <ul style="margin-left: 20px;">
-    <li><a href="http://russell.ballestrini.net/random.html" target="_blank">http://russell.ballestrini.net/random.html</a></li>
-    <li><a href="https://linkpeek.com/blog" target="_blank">https://linkpeek.com/blog</a></li>
-    <li><a href="http://westworld2.com/">http://westworld2.com</a></li>
-    <li><a href="http://webscale.plumbing/managing-apt-repos-in-s3-using-lambda" target="_blank">http://webscale.plumbing</a></li>
-    <li><a href="http://gumyum.com/" target="_blank">http://gumyum.com</a></li>
-    <li><a href="http://www.remarkbox.com/#remarkbox">http://www.remarkbox.com/#remarkbox</a></li>
-    </ul>
-    </p>
-
     </div>
 
-<span id="about">
-
+    <div class="three columns">&nbsp;</div>
   </div>
 </div>
+</div>
 
-<div class="graybg row-padding">
+<div class="row-padding">
 <div class="container">
   <div class="row">
 
@@ -364,11 +385,12 @@ Your <b>feedback will shape</b> Remarkbox!
 
 
   </div>
-</div>
-</div>
-</div>
     <span id="remarkbox-demo">
+</div>
+</div>
+</div>
 
+<div class="graybg">
 <div class="container">
   <div class="row row-padding">
 
@@ -379,8 +401,9 @@ Your <b>feedback will shape</b> Remarkbox!
 
   </div>
 </div>
+</div>
 
-<div class="graybg row-padding">
+<div class="row-padding">
 <center>
 <b>
 &#169;2016-2017 | USA, Connecticut, New London | <a href="https://twitter.com/RussellBal" target="_blank">@russellbal</a>
