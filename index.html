@@ -6,7 +6,7 @@
   <title>Comments as a service | Remarkbox</title>
 
   <!-- this makes mobile pretty...  -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta name="theme-color" content="#D40000">
 
@@ -35,17 +35,17 @@
 
 <body class="remarkbox-body">
 
-<a name="top"></a>
+<span id="top"></span>
 
 <div class="redline"></div>
 
 <div class="navbar hidden-on-tablet">
-    <a href="http://www.remarkbox.com"><img src="remarkbox-minified.png" class="navlogo" /></a>
+    <a href="http://www.remarkbox.com"><img src="remarkbox-minified.png" class="navlogo" alt="Remarkbox Logo" /></a>
     
     <div class="navlinks">
       <a href="#plans">Plans</a>
       <a href="#faq">FAQ</a>
-      <a href="#beta">Beta</a>
+      <a href="#beta">Join</a>
       <a href="#about">About</a>
       <a href="#remarkbox-demo">Demo</a>
     </div>
@@ -55,16 +55,16 @@
 <div class="container">
 
 <center><a href="http://www.remarkbox.com">
-    <img src="remarkbox-minified.png" class="herologo" /></a>
+    <img src="remarkbox-minified.png" class="herologo" alt="Remarkbox Logo" /></a>
     <h2>Your readers want <span class="avoidwrap">to communicate with you</span></h2>
 </center>
 
+<span id="free"></span>
   <div class="row">
     <div class="one-half column">
 
       <center>
       <span style="font-size: 1.25em;">
-<a name="free"></a>
 
         <br />
         <br />
@@ -118,7 +118,7 @@
       <br/>
       Not only that, but they actively cause your visitors to bounce to their dashboard.
       As a result, Remarkbox was created to satisfy the need for a comment system that <b>works for the site owner</b>, not against them.
-      <a href="#about">... read more<a/>
+      <a href="#about">... read more</a>
   </div>
 </div>
 </div>
@@ -129,15 +129,15 @@
 <br/>
 <br/>
 <br/>
-<span id="learn">
+<span id="learn"></span>
 <div class="nav">
   <div>
-    <a href="http://www.remarkbox.com"><img src="remarkbox-minified.png" class="navlogo" /></a>
+    <a href="http://www.remarkbox.com"><img src="remarkbox-minified.png" class="navlogo" alt="Remarkbox Logo" /></a>
     
     <div class="navlinks">
       <a href="#plans">Plans</a>
       <a href="#faq">FAQ</a>
-      <a href="#beta">Beta</a>
+      <a href="#beta">Join</a>
       <a href="#about">About</a>
       <a href="#remarkbox-demo">Demo</a>
     </div>
@@ -155,7 +155,7 @@
     <div class="one-half column">
 
 <center>
-<img src="/static/img/remarkbox-instant-preview-of-comments.gif" width="98%" style="margin-top: 20px;">
+<img src="/static/img/remarkbox-instant-preview-of-comments.gif" style="margin-top: 20px; width: 98%;" alt="Remarkbox Demo animated gif">
 <span style="font-size: .7em">Markdown and syntax highlighted code blocks!</span>
 </center>
 
@@ -182,12 +182,12 @@ The end result is a visitor can comment right away without needing to signup or 
 
 <h5>Say <u>No</u> to Ads!</h5>
 
-<ul style="margin-bottom: 40px;">
 Other comment systems, like Facebook and Disqus, track your (and your visitor's) activity to serve ads.
 <br>
 <br>
 Here at Remarkbox we respect your privacy and never serve ads. In fact, we only <b>promote your message</b> because we work for you, not them!
-</ul>
+<br>
+<br>
 
 
     </div>
@@ -202,8 +202,7 @@ Here at Remarkbox we respect your privacy and never serve ads. In fact, we only 
 <p>
     https://www.youtube.com/watch?v=Pm8P4oCIY3g
 -->
-<span id="plans">
-<span id="faq">
+<span id="plans"></span>
 
 </div>
 </div>
@@ -212,7 +211,9 @@ Here at Remarkbox we respect your privacy and never serve ads. In fact, we only 
 <div class="container row-padding" style="max-width: 960px">
 
 <center><h5>Plans and Pricing</h5></center>
-        <br/>
+
+  <br/>
+  <br/>
 
   <div class="row">
 
@@ -220,13 +221,13 @@ Here at Remarkbox we respect your privacy and never serve ads. In fact, we only 
     <div class="one-third column">
       <br/>
       <div class="pricebox">
-        <b>None</b>
+        <b>Development</b>
         <h3>Free</h3>
         No moderator
         <br/>
         <br/>
         <br/>
-        <b><a href="#free" class="button red">Free</a></b>
+        <b><a href="#free" class="button red">Setup</a></b>
         <br/>
         Just put the snippet into your HTML
       </div>
@@ -235,8 +236,8 @@ Here at Remarkbox we respect your privacy and never serve ads. In fact, we only 
     <div class="one-third column">
       <div class="redline"></div>
       <div class="pricebox deal">
-        <b>One</b>
-        <h3>$6/mo</h3>
+        <b>Production</b>
+        <h3>$5/mo</h3>
           One moderator on<br/>
           <span class="avoidwrap">one verified domain</span>
           <br/>
@@ -251,9 +252,9 @@ Here at Remarkbox we respect your privacy and never serve ads. In fact, we only 
     <div class="one-third column">
       <br/>
       <div class="pricebox">
-        <b>Many</b>
-        <h3>$16/mo</h3>
-          One moderator on<br/>
+        <b>Dedicated</b>
+        <h3>$50/mo</h3>
+          Dedicated instance of Remarkbox<br/>
           <span class="avoidwrap">unlimited verified domains</span>
           <br/>
           <br/>
@@ -263,34 +264,40 @@ Here at Remarkbox we respect your privacy and never serve ads. In fact, we only 
       </div>
     </div>
 
+<span id="faq"></span>
   </div>
 
-<br><br><br><br>
+<br><br>
+<br><br>
+<br>
+
+    <center><h5>FAQ</h5></center>
+    <br/>
+    <br/>
 
   <div class="row">
 
-    <h5>FAQ</h5>
-
-
-    <div class="one-half column" style="padding-left: 5%;">
-
+    <div class="one-half column">
     
-    
-    <p style="margin-bottom: 10px;">
     <b>Do you have any real examples?</b>
     <ul style="margin-left: 20px;">
-    <li><a href="http://russell.ballestrini.net/random.html" target="_blank">http://russell.ballestrini.net/random.html</a></li>
     <li><a href="https://linkpeek.com/blog" target="_blank">https://linkpeek.com/blog</a></li>
-    <li><a href="http://westworld2.com/">http://westworld2.com</a></li>
+    <li><a href="http://westworld2.com/">http://westworld2.com</a> <span style="font-size: .8em">(dedicated)</span></li>
     <li><a href="http://webscale.plumbing/managing-apt-repos-in-s3-using-lambda" target="_blank">http://webscale.plumbing</a></li>
     <li><a href="http://gumyum.com/" target="_blank">http://gumyum.com</a></li>
     <li><a href="http://www.remarkbox.com/#remarkbox">http://www.remarkbox.com/#remarkbox</a></li>
     </ul>
-    </p>
 
     </div>
+    <div class="one-half column">
+    
+    <b>What about my data?</b>
+    <ul style="margin-left: 20px;">
+      <li>export your comments as needed <span style="font-size: .8em">(almost ready)</span></li>
+    </ul>
+    </div>
 
-<span id="beta">
+<span id="beta"></span>
 
   </div>
 </div>
@@ -300,10 +307,10 @@ Here at Remarkbox we respect your privacy and never serve ads. In fact, we only 
   <div class="row">
     <div class="three columns">&nbsp;</div>
 
-    <div class="six columns">
-<h5>Remarkbox Beta</h5>
+    <div class="six columns" style="text-align: center;">
+<h5>Join Remarkbox beta</h5>
 
-For <b>beta access</b> to advanced features and updates <span class="avoidwrap"> join the email list.</span>
+For <b>early access</b> to advanced <span class="avoidwrap">features and updates join the email list</span>
 
 <br />
 <br />
@@ -311,19 +318,20 @@ For <b>beta access</b> to advanced features and updates <span class="avoidwrap">
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
 <form action="//ballestrini.us2.list-manage.com/subscribe/post?u=c64d1bc4e5a99ee1343dba0fc&amp;id=b4deeab70b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c64d1bc4e5a99ee1343dba0fc_b4deeab70b" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="join beta" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div id="mc_embed_signup_scroll" style="text-align: center;">
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="b_c64d1bc4e5a99ee1343dba0fc_b4deeab70b" tabindex="-1" value=""></div>
+        <center>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" style="padding: auto;" required>
+        <input type="submit" value="join beta" name="subscribe" id="mc-embedded-subscribe" class="button">
+        </center>
     </div>
-    <i>(only 2 messages a month)</i>
 </form>
 </div>
 <!--End mc_embed_signup-->
 
-<span id="about">
+<span id="about"></span>
 Your <b>feedback will shape</b> Remarkbox!
     </div>
 
@@ -385,7 +393,7 @@ Your <b>feedback will shape</b> Remarkbox!
 
 
   </div>
-    <span id="remarkbox-demo">
+    <span id="remarkbox-demo"></span>
 </div>
 </div>
 </div>

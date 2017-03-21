@@ -99,7 +99,7 @@ body {
 .navlogo {
     width: 280px;
     /*vertical-align: middle;*/
-    padding-right: 40px;
+    padding-right: 0px;
     padding-left: 40px;
 }
 
