@@ -16,20 +16,7 @@ a, a:link, a:visited {
 
 body {
     background-color: #f8f5f5;
-}
-
-#mc_embed_signup {
-    clear:left; font:14px Helvetica,Arial,sans-serif;
-}
-#mc_embed_signup .button, .red {
-    background-color: #AA0000;
-    border-color: #AA0000;
-    color: #FFFFFF;
-}
-#mc_embed_signup .button:hover, .red:hover {
-    background-color: #D40000;
-    border-color: #DA0000;
-    color: #FFFFFF;
+    overflow-x: hidden;
 }
 
 .pricebox {
@@ -56,7 +43,6 @@ body {
 
 
 .nav, .navbar {
-    word-spacing: 30px;
     font-weight: bold;
     width: 100%;
     background-color: #ffffff;
@@ -93,7 +79,11 @@ body {
     float: right;
     padding-right: 40px;
     padding-left: 40px;
-    padding-top: 20px;
+    padding-top: 10px;
+}
+
+.navlink {
+   padding-right: 20px;
 }
 
 .navlogo {
@@ -124,11 +114,111 @@ span.avoidwrap {
     max-width: 860px;
 }
 
+/* beta ribbon! */
+
+/* Custom styles */
+
+.corner-ribbon{
+  width: 200px;
+  background: #e43;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon a {
+  color: #ffffff;
+}
+
+.corner-ribbon.sticky{
+  position: fixed;
+}
+
+.corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+
+/* Different positions */
+
+.corner-ribbon.top-left{
+  top: 25px;
+  left: -50px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon.top-right{
+  top: 25px;
+  right: -50px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-left{
+  top: auto;
+  bottom: 25px;
+  left: -50px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-right{
+  top: auto;
+  right: -50px;
+  bottom: 25px;
+  left: auto;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Colors */
+.corner-ribbon.color{
+  background: #aa0000;
+  /*background: #3e78ad;*/
+}
+
+
+/* mail chimp and red buttons */
+
+#mc_embed_signup {
+    clear:left; font:14px Helvetica,Arial,sans-serif;
+}
+#mc_embed_signup .button, .red {
+    background-color: #AA0000;
+    border-color: #AA0000;
+    color: #FFFFFF !important;
+}
+#mc_embed_signup .button:hover, .red:hover {
+    background-color: #D40000;
+    border-color: #DA0000;
+    color: #FFFFFF !important;
+}
+
+/* media viewports */
+
+.shown-on-phone {
+  display: none;
+}
+
+.shown-on-tablet {
+  display: none;
+}
+
 @media screen and (max-width:568px) {
   .hidden-on-phone {display: none} 
+  .shown-on-phone {display: block} 
 }  
 
 @media screen and (max-width:750px) {
   .navbar.hidden-on-tablet {display: none} 
   .hidden-on-tablet {display: none} 
+  .shown-on-tablet  {display: block} 
 }  
+
