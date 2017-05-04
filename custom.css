@@ -6,6 +6,13 @@ a, a:link, a:visited {
     text-decoration: none;
 }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
+}
+
 .reasons {
     background-color: #f8f5f5;
 }
