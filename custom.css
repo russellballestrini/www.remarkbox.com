@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 a, a:link, a:visited {
@@ -13,30 +13,104 @@ a.anchor {
   visibility: hidden;
 }
 
-.reasons {
+.navbar a {
+    color: #888888;
+} 
+
+.nav a {
+    color: #888888;
+}
+
+body {
     background-color: #f8f5f5;
+    overflow-x: hidden;
+}
+
+.pricebox {
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.deal {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .graybg {
-    background-color: #f8f5f5;
+    /*background-color: #f8f5f5;*/
+    background-color: #ffffff;
+}
+
+.reasons {
+    /*background-color: #f8f5f5;*/
+    background-color: #ffffff;
+}
+
+
+.nav, .navbar {
+    font-weight: bold;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: solid 4px #AA0000;
 }
 
 .nav {
-    /*background-color: #f1f1f1;*/
-    text-align: center;
-    word-spacing: 50px;
-    padding: 8px;
-    margin-bottom: 60px;
-    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    /*border-bottom: 1px solid #eee;*/
 }
 
-.nav a {
-    text-decoration: none;
+.navbar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 99;
+}
+
+.redline {
+    border-top: solid 4px #AA0000;
+}
+
+.has-docked-nav .navbar {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.navlinks {
+    float: right;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.navlink {
+   padding-right: 20px;
+}
+
+.navlogo {
+    width: 280px;
+    /*vertical-align: middle;*/
+    padding-right: 0px;
+    padding-left: 40px;
+}
+
+.herologo {
+   width: 100%;
+   max-width: 600px;
+   min-width: 300px;
+   padding-top: 40px;
+   padding-bottom: 60px;
 }
 
 .row-padding {
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 span.avoidwrap { 
@@ -47,7 +121,39 @@ span.avoidwrap {
     max-width: 860px;
 }
 
+/* mail chimp and red buttons */
+
+#mc_embed_signup {
+    clear:left; font:14px Helvetica,Arial,sans-serif;
+}
+#mc_embed_signup .button, .red {
+    background-color: #AA0000;
+    border-color: #AA0000;
+    color: #FFFFFF !important;
+}
+#mc_embed_signup .button:hover, .red:hover {
+    background-color: #D40000;
+    border-color: #DA0000;
+    color: #FFFFFF !important;
+}
+
+/* media viewports */
+
+.shown-on-phone {
+  display: none;
+}
+
+.shown-on-tablet {
+  display: none;
+}
+
 @media screen and (max-width:568px) {
-  .hidden-on-phone {display:none} 
+  .hidden-on-phone {display: none} 
+  .shown-on-phone {display: block} 
 }  
 
+@media screen and (max-width:750px) {
+  .navbar.hidden-on-tablet {display: none} 
+  .hidden-on-tablet {display: none} 
+  .shown-on-tablet  {display: block} 
+}  
