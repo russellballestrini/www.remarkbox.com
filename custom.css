@@ -26,6 +26,15 @@ body {
     overflow-x: hidden;
 }
 
+blockquote {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 4px solid #AA0000;
+}
+
 .pricebox {
     text-align: center;
     background-color: #ffffff;
