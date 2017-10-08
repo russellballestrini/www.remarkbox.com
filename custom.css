@@ -35,6 +35,11 @@ blockquote {
     border-left: 4px solid #AA0000;
 }
 
+li {
+    padding-left: 20px;
+    text-indent: -20px;
+}
+
 .pricebox {
     text-align: center;
     background-color: #ffffff;
