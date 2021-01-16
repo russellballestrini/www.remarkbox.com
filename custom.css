@@ -22,8 +22,16 @@ a.anchor {
 }
 
 body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8em;
+    line-height: 1.8;
+    font-weight: 400;
     background-color: #f8f5f5;
     overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
 }
 
 blockquote {
@@ -91,14 +99,14 @@ li {
 
 .has-docked-nav .navbar {
     display: block;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 4px;
     border-bottom: 1px solid #eee;
 }
 
 .navlinks {
     float: right;
-    padding-right: 40px;
+    padding-right: 20px;
     padding-top: 10px;
 }
 
